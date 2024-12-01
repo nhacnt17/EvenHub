@@ -5,8 +5,6 @@ const HomeScreens = () => {
   return (
     <View>
       <Text>HomeScreens</Text>    
-      <Text>HomeScreens</Text>
-      <Text>HomeScreens</Text>
     </View>
   )
 }
