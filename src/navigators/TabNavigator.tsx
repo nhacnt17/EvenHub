@@ -8,7 +8,9 @@ const TabNavigator = () => {
     const Tab = createBottomTabNavigator();
 
   return (
-    <Tab.Navigator screenOptions={{headerShown: false}}>
+    <Tab.Navigator screenOptions={{
+      headerShown: false
+      }}>
         <Tab.Screen name='HomeScreens' component={HomeScreens}/>
     </Tab.Navigator>
   )
